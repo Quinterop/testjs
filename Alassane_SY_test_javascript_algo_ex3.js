@@ -56,6 +56,7 @@ function checkAllSquares(table) {
         }
         k += 3;
     }
+    return true;
 }
 
 function checkAll(table) {
@@ -64,6 +65,7 @@ function checkAll(table) {
         displayResult(true, "The table is correct",0);
         return true;
     }
+    console.log("All is not valid");
     return false;
 }
 

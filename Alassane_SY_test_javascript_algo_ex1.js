@@ -26,7 +26,7 @@ function displayTable() {
 }
 
 //EX1 tests ---------------------------
-console.log("EX1");
+//console.log("EX1");
 adaptTable(array_number);
 displayTable();
 //console.log(to_verify);
